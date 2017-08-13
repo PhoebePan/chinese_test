@@ -1,3 +1,44 @@
 .q-item {
     display: inline-flex;
-} 
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #3e3e3e;
+    background-color: #80C3FD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #B6E1FD;
+    border: 1px solid #4A4A4A;
+}
+
+.btn.verbs.active {
+    background-color: yellow;
+}
+
+.btn.comfirm {
+    background-color: yellowgreen;
+}
+
+.btn.comfirm:hover {
+    background-color: #BCF746;
+}
+
+.btn.comfirm:active {
+    background-color: #9DE82C;
+}
+
+.btn.clear {
+    background-color: yellow;
+}
+
+.btn.clear:hover {
+    background-color: #FDFD48;
+}
+
+.btn.clear:active {
+    background-color: #F4DD02;
+}
