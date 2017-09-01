@@ -8,7 +8,7 @@ $(function() {
 
     var btnClear = function() {
         $('.clear').on('click', function() {
-            var $questionElem = $(this).parent('.question');
+            var $questionElem = $(this).parents('.question');
 
             $questionElem.find('.verbs').removeClass('active');
         });

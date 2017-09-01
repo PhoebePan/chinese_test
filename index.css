@@ -1,3 +1,7 @@
+.question {
+    margin-bottom: 10px;
+}
+
 .q-item {
     display: inline-flex;
 }
@@ -5,26 +9,27 @@
 .btn {
     padding: 10px 20px;
     border: 1px solid #3e3e3e;
-    background-color: #80C3FD;
+    background-color: #f1f1f1;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #B6E1FD;
+    background-color: #fdfdfd;
     border: 1px solid #4A4A4A;
 }
 
 .btn.verbs.active {
-    background-color: yellow;
+    background-color: gray;
+    color: white;
 }
 
 .btn.comfirm {
-    background-color: yellowgreen;
+    background-color: skyblue;
 }
 
 .btn.comfirm:hover {
-    background-color: #BCF746;
+    background-color: lightblue;
 }
 
 .btn.comfirm:active {
@@ -32,13 +37,22 @@
 }
 
 .btn.clear {
-    background-color: yellow;
+    background-color: red;
 }
 
 .btn.clear:hover {
-    background-color: #FDFD48;
+    background-color: pink;
 }
 
 .btn.clear:active {
     background-color: #F4DD02;
+}
+
+.check-block {
+    margin-top: 10px;
+}
+
+/* tip */
+.tip-title {
+    width: 60px;
 }
