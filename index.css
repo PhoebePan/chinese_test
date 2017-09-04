@@ -53,6 +53,34 @@
 }
 
 /* tip */
+.tip {
+    margin-bottom: 10px;
+}
+
 .tip-title {
-    width: 60px;
+    width: auto;
+    display: inline-block;
+}
+
+.tip-content{
+    display: none;
+    margin-left: 20px;
+    color: red;
+}
+
+.tip-title:hover .tip-content {
+    display: inline-block;
+}
+
+.item-click .title {
+    display: inline-block;
+    width: auto;
+}
+
+.content {
+    display: none;
+}
+
+.item-click.active .content {
+    display: inline-block;
 }

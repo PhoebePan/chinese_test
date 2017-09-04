@@ -13,10 +13,17 @@ $(function() {
             $questionElem.find('.verbs').removeClass('active');
         });
     }
+
+    var itemClick = function() {
+        $('.item-click').on('click', function() {
+            $(this).toggleClass('active');
+        });
+    }
     
     var init = function() {
         qitemBtnClick();
         btnClear();
+        itemClick();
         console.log('init');
     }
     
