@@ -24,8 +24,19 @@
     color: white;
 }
 
+.btn.verbs.active.green {
+    background-color: green;
+    color: white;
+}
+
+.btn.verbs.active.red {
+    background-color: red;
+    color: white;
+}
+
 .btn.comfirm {
     background-color: skyblue;
+    font-size: 16px;
 }
 
 .btn.comfirm:hover {
@@ -56,6 +67,7 @@
 /* tip */
 .tip {
     margin-bottom: 10px;
+    margin-left: 37px;
 }
 
 .tip-title {
@@ -73,9 +85,14 @@
     display: inline-block;
 }
 
+.item-click {
+    margin-left: 37px;
+}
+
 .item-click .title {
     display: inline-block;
     width: auto;
+    margin-bottom: 10px;
 }
 
 .content {
@@ -84,4 +101,23 @@
 
 .item-click.active .content {
     display: inline-block;
+}
+
+/* icon */
+.icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    top: 10px;
+    position: relative;
+}
+
+.icon-crrect {
+    background-image: url(images/correct.png);
+    background-size: 32px 32px; 
+}
+
+.icon-error {
+    background-image: url(images/error.png);
+    background-size: 32px 32px;
 }

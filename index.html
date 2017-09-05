@@ -4,57 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>文言文圖解式文法解析網</title>
 </head>
 <body>
+
+    <audio id="crrect" src="mp3/crrect_answer.mp3" preload="auto"></audio>
+    <audio id="error" src="mp3/blip04.mp3" preload="auto"></audio>
+
     <div class="chapter ch1">
         <h1>找動詞測驗</h1>
         <h3>【資治通鑑：威烈王二十五年（甲辰，公元前三七七年）】</h3>
         <ol>
             <li>
-                <div class="question">
-                    <!--  01   子思 言 苟變 於 衛侯 曰：「其材 可將 五百 乘。」 -->
-                    <div class="q-item btn verbs">子思</div>
-                    <div class="q-item btn verbs">言</div>
-                    <div class="q-item btn verbs">苟變</div>
-                    <div class="q-item btn verbs">於</div>
-                    <div class="q-item btn verbs">衛侯</div>
-                    <div class="q-item btn verbs">曰</div><span>：「</span>
-                    <div class="q-item btn verbs">其材</div>
-                    <div class="q-item btn verbs">可將</div>
-                    <div class="q-item btn verbs">五百</div>
-                    <div class="q-item btn verbs">乘</div><span>。」</span>
-                    <div class="check-block">
-                        <div class="q-item btn comfirm">確認</div>
-                        <div class="q-item btn clear">清除</div>
+                    <div class="question">
+                        <!--  01   子思 言 苟變 於 衛侯 曰：「其材 可將 五百 乘。」 -->
+                        <span class="icon icon-sign"></span>
+                        <div class="q-item btn verbs">子思</div>
+                        <div class="q-item btn verbs">言</div>
+                        <div class="q-item btn verbs">苟變</div>
+                        <div class="q-item btn verbs">於</div>
+                        <div class="q-item btn verbs">衛侯</div>
+                        <div class="q-item btn verbs">曰</div><span>：「</span>
+                        <div class="q-item btn verbs">其材</div>
+                        <div class="q-item btn verbs">可將</div>
+                        <div class="q-item btn verbs">五百</div>
+                        <div class="q-item btn verbs">乘</div><span>。」</span>
+                        <div class="check-block">
+                            <button class="q-item btn comfirm" value="1">確認</button>
+                            <div class="q-item btn clear">清除</div>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="tip">
-                    <div class="btn tip-title">提示<span class="tip-content">請找出三個動詞</span>
-                    </div>    
-                </div>
-                <div class="item-click answer">
-                    <div class="btn title">答案</div>
-                    <div class="content">言   曰   可將</div>
-                </div>
-                <div class="item-click comment">
-                    <div class="btn title">注釋</div>
-                    <div class="content"> 將：帶領。 乘，ㄕㄥˋ，兵車。</div>
-                </div>
-                <div class="item-click translate">
-                    <div class="btn title">翻譯</div>
-                    <div class="content">子思談論苟變於衛侯面前，說：「他的才能可帶領五百輛兵車。」</div>
-                </div>
+                    <div class="tip">
+                        <div class="btn tip-title">提示<span class="tip-content">請找出三個動詞</span>
+                        </div>    
+                    </div>
+                    <div class="item-click answer">
+                        <div class="btn title">答案</div>
+                        <div class="content">言   曰   可將</div>
+                    </div>
+                    <div class="item-click comment">
+                        <div class="btn title">注釋</div>
+                        <div class="content"> 將：帶領。 乘，ㄕㄥˋ，兵車。</div>
+                    </div>
+                    <div class="item-click translate">
+                        <div class="btn title">翻譯</div>
+                        <div class="content">子思談論苟變於衛侯面前，說：「他的才能可帶領五百輛兵車。」</div>
+                    </div>
             </li>
+            <li>
+                    <div class="question">
+                        <!--   02 公曰：「吾 知 其 可將。然 變 也 嘗 為 吏，    -->
+                        <span class="icon icon-sign"></span>
+                        <div class="q-item btn verbs">公</div>
+                        <div class="q-item btn verbs">曰</div><span>：「</span>
+                        <div class="q-item btn verbs">吾</div>
+                        <div class="q-item btn verbs">知</div>
+                        <div class="q-item btn verbs">其</div>
+                        <div class="q-item btn verbs">可將</div><span>。</span>
+                        <div class="q-item btn verbs">然</div>
+                        <div class="q-item btn verbs">變</div>
+                        <div class="q-item btn verbs">也</div>
+                        <div class="q-item btn verbs">嘗</div>
+                        <div class="q-item btn verbs">為</div>
+                        <div class="q-item btn verbs">吏</div><span>，</span>
+                        <div class="check-block">
+                            <button class="q-item btn comfirm" value="2">確認</button>
+                            <div class="q-item btn clear">清除</div>
+                        </div>
+                    </div>
+                    <div class="tip">
+                        <div class="btn tip-title">提示<span class="tip-content">請找出四個動詞</span>
+                        </div>    
+                    </div>
+                    <div class="item-click answer">
+                        <div class="btn title">答案</div>
+                        <div class="content">曰     知    (可將)   為</div>
+                    </div>
+                    <div class="item-click comment">
+                        <div class="btn title">注釋</div>
+                        <div class="content"> 變：苟變，人名。</div>
+                    </div>
+                    <div class="item-click translate">
+                        <div class="btn title">翻譯</div>
+                        <div class="content">公說：「我知道他可以帶兵，但是苟變啊 曾經擔任官吏，</div>
+                    </div>
+                </li>
         </ol>
         
     </div>
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
+    
     <script src="main.js"></script>
 </body>
 </html>
