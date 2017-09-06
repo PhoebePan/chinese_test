@@ -26,8 +26,8 @@ $(function() {
     }
 
     var itemClick = function() {
-        $('.item-click').on('click', function() {
-            $(this).toggleClass('active');
+        $('.item-click .btn').on('click', function() {
+            $(this).parents('.item-click').toggleClass('active');
         });
     }
 
