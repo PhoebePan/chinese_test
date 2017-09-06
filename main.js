@@ -78,7 +78,7 @@ $(function() {
     }
     
     var init = function() {
-        var data = [{"answer": [2, 6, 8]},{"answer": [2, 4, 6, 11]},{"answer": [1, 5, 8]}];
+        var data = [{"answer": [2, 6, 8]},{"answer": [2, 4, 6, 11]},{"answer": [1, 5, 8]},{"answer": [2, 6, 8, 11]}];
         qitemBtnClick();
         btnClear();
         itemClick();
