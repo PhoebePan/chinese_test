@@ -1,5 +1,8 @@
 .question {
     margin-bottom: 10px;
+    position: relative;
+    display: block;
+    padding-left: 37px;
 }
 
 .q-item {
@@ -114,6 +117,11 @@
     display: inline-block;
     top: 10px;
     position: relative;
+}
+
+.icon-sign {
+    position: absolute;
+    left: 0;
 }
 
 .icon-crrect {

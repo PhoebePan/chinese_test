@@ -5,7 +5,7 @@ $(function() {
             var hasDisabled = $thisComfirm.attr('disabled');
             
             if(hasDisabled) {
-                $('.verbs').removeClass('green red');
+                $(this).parents('.question').find('.verbs').removeClass('green red');
                 $thisComfirm.attr('disabled', false);
             }
             
